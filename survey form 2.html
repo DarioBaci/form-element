@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Survey Form</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+
+        <h1 id="title" class="title">Survey Form</h1>    
+
+        <p class="description" id="description">Insert Your Data
+        </p>
+
+        <form id="survey-form">
+
+        <div class="p1">
+            <label for="name-label">Insert Your Name:</label>
+            <input class="name" id="name"type="text" placeholder="your name" required>
+        </div>
+
+        <div class="p2">
+            <label for="email-label">Insert Your Email:</label>
+            <input class="email" id="email" type="email" placeholder="your email" required>
+        </div>
+
+        <div class="p3">
+            <label for="number-label">Insert Your Phone Number:</label>
+            <input class="number" id="number" type="tel" minlength="2" maxlength="5" placeholder="your phone number" required>
+        </div>
+
+        <div >
+            Why you started coding ?
+
+            <select name="dropdown" id="dropdown" required>
+
+                <option>As an hobby</option>
+                <option>For school</option>
+                <option>To get a work</option>
+                <option>Other</option>
+
+            </select>
+        </div>
+
+        <div>
+
+           <p> What is the role you are aiming to ?</p>
+            <input type="radio" name="z1">front-end
+            <input type="radio" name="z1">back-end
+            <input type="radio" name="z1">full-stack
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" required placeholder=""></textarea>
+
+        <div>
+            <input type="checkbox" value="Enter" required>
+            I accept the <a href="">terms and conditions</a>
+        </div>
+
+        <div>
+            <button id="submit">submit</button>
+        </div>
+        </form>
+
+    </body>
+
+
+</html>
