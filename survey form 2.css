@@ -1,0 +1,52 @@
+
+            body{
+                background-color: rgb(34, 34, 94);
+                color: white;
+                font-family: roboto;
+                font-size: 13px;
+            }
+            
+            form{
+                margin: 20px auto;
+                text-align: center;
+                border: solid 1px rgb(34, 34, 94);
+                width: 300px;
+                border-radius: 15px;
+                background-color: rgb(30, 30, 85);
+            }
+
+            .title{
+                margin: 20px auto;
+                text-align: center;
+            }
+
+            .description{
+                margin: 20px auto;
+                text-align: center;
+            }
+
+            label{
+                margin-top: 10px;
+                display: block;
+                width: ;            
+             }
+
+             .name, .email, .number{
+                width: 250px;
+                padding: 0px;
+                margin: 0px;
+                border: 0;
+                
+             }
+            
+             .p1, .p2, .p3{
+                margin: 0px auto;
+                align-items:center;
+                
+                width: 250px;
+                text-align: left;
+             }
+
+             a{
+                color: rgb(193, 196, 193);
+             }
