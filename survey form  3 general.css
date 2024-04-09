@@ -1,0 +1,11 @@
+            body{
+                background-color: rgb(44, 127, 223);
+            }   
+            
+            button{
+                display: block;
+            }
+
+            input{
+                display: block;
+            }
