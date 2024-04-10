@@ -1,0 +1,42 @@
+            h1{
+                color: white;
+                font-family: roboto;
+                
+            }
+
+            p{
+                font-weight: 500;
+                font-size: 14px;
+            }
+
+            span{
+                font-size: 14px;
+            }
+
+            body{
+                background-color: rgb(44, 127, 223);
+                font-family: roboto,arial;
+            }   
+            
+            button{
+                display: block;
+                border: none;
+                color:white;
+                border-radius: 7px;
+                background-color: rgb(44, 127, 223);
+            }
+
+            button:active{
+                opacity: 0.8;
+            }
+
+            input{
+                display: block;
+            }
+
+            button{
+                width: 100px;
+                height: 30px;
+                font-family: roboto;
+                background-color: rgb(10, 139, 245);
+            }
